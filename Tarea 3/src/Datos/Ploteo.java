@@ -1,5 +1,7 @@
 package Datos;
-import java.io.File;
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
@@ -8,7 +10,7 @@ public class Ploteo {
 	
 	public static void leer(String ruta) {
 		try {
-			File archivo = new File(ruta);
+			BufferedReader archivo = new BufferedReader(new InputStreamReader(new FileInputStream(ruta),"utf-8"));
 			Scanner sc = new Scanner(archivo);
 			String[] actual;
 			Coordenada cord;

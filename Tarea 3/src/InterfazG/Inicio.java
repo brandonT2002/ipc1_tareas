@@ -1,15 +1,12 @@
 package InterfazG;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
 import javax.swing.BorderFactory;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.filechooser.FileNameExtensionFilter;
-import org.jfree.chart.ChartRenderingInfo;
-import org.jfree.chart.entity.StandardEntityCollection;
 import Componentes.Boton;
 import Componentes.Colores;
 import Componentes.Etiqueta;
